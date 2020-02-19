@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<tables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation='whq-tables-schema.xsd'>
+  <table name="Original Event Deck">
+    <monster id="od-giant-bat" number="2-12" />
+    <monster id="od-giant-rat" number="2-12" />
+    <monster id="od-giant-spider" number="2-12" />
+    <monster id="od-snotling" number="2-12" />
+    <monster id="od-goblin-archer" number="6" />
+    <monster id="od-goblin-spearman" number="6" />
+    <group>
+      <monster id="od-goblin-archer" number="1-6" />
+      <monster id="od-goblin-spearman" number="1-6" />
+    </group>
+    <monster id="od-skaven" number="2-12" />
+    <monster id="od-orc" number="6" />
+    <group>
+      <monster id="od-orc" number="1-6" />
+      <monster id="od-orc-archer" number="1-6" />
+    </group>
+    <monster id="od-minotaur-solo" number="1" />
+    <monster id="od-minotaur" number="1-3" />
+    <event id="od-old-bones" />
+    <event id="od-scorpions" />
+    <event id="od-encounter" />
+    <event id="od-trap" />
+    <event id="od-dead-body" />
+    <event id="od-portcullis" />
+    <event id="od-cave-in" />
+  </table>
+</tables>
